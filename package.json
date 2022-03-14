@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-server-status-bot",
+  "version": "1.0.0",
+  "description": "Minecraft Server Status Bot is a Discord Bot Which Gives You Status Of Your Minecraft Server .",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "LegendX",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-pagination": "^1.0.3",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.7",
+    "node-fetch": "^2.6.1",
+    "quick.db": "^7.1.3"
+  }
+}
