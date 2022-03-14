@@ -1,10 +1,10 @@
-# Minecraft Server Status Discord Bot
+# McSrvBot
 
 <p align="center">
-    Minecraft Server Status Bot is a Discord Bot Which Gives You Status Of Your Minecraft Server .
+    McSrvBot is a bot which allows you to look at your Minecraft server status without opening Minecraft!
 </p>
 
-# Bot-Setup
+# Bot Setup
 
 Before you go into `Bot Configuration` or `First Start` make sure you have downloaded and installed these things :
 
