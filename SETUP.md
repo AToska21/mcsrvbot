@@ -6,11 +6,11 @@
 
 # Bot-Setup
 
-Before Go Into `Bot-Config` or `Bot-Startup` Make Sure You Have Downloaded And Installed These Things :
+Before you go into `Bot Configuration` or `First Start` make sure you have downloaded and installed these things :
 
 **[Latest Version Of NodeJS](https://nodejs.org/en/)**
 
-After Successfull Installation Of NodeJS , Follow This Process :
+After the successful installation of NodeJS, follow this process:
 
 ```
 1- Click On The Windows-Key Of Your Keyboard .
@@ -24,11 +24,11 @@ After Successfull Installation Of NodeJS , Follow This Process :
 5- When The Installation Is Finished You Can Close The Terminal .
 ```
 
-After Completing `Bot-Setup` Move To `Bot-Config` .
+After completing `Bot Setup` move to `Bot Configuration` .
 
-# Bot-Config
+# Bot Configuration
 
-You Have Found File Named **config.json** like this :
+You have a file named config.json like this:
 
 ```json
 {
@@ -43,23 +43,23 @@ You Have Found File Named **config.json** like this :
   "botreportchannel": "channel-id-where-report-command-send-reports"
 }
 ```
-In First Line Place **`Your Bot Website Link`** .
-In Second Line Place **`Your Bot Invite Link`** .
-In Third Line Place **`Your Bot Token`** .
-In Fourth Line Place **`Your Discord Server Invite Link`** .
-In Fifth Line Place **`Your Bot Default Prefix`** .
-Don't Make Changes In **`Sixth`** , **`Seventh`** And **`Eight`** Line .
-In Last Line Place **`Discord Channel Id`** Where Bot Sends A Report Whenever Anyone Used Report Command .
+In the first line put **`Your Bot Website Link`**.
+In the second line put **`Your Bot Invite Link`**.
+In the third line put **`Your Bot Token`**.
+In the fourth line put **`Your Discord Server Invite Link`**.
+In the fifth line put **`Your Bot Default Prefix`**.
+Do not make changes in the **`Sixth`**, **`Seventh`**, And **`Eighth`** lines.
+In the ninth line put the **`Discord Channel Id`** where the bot sends a report when someone uses the report command.
 
-After Completing `Bot-Config` Move To `Bot-Startup` .
+After Completing `Bot Configuration` Move To `First Start` .
 
-# Bot-Startup
+# First Start
 
-When You Completed The Above Setup Open Terminal And Use These Commands :
+When you completed the above steps run these commands:
 
 ```
 npm install discord.js@12.5.3 discord.js-pagination fs glob node-fetch quick.db
 npm run start
 ```
 
-Congo Your Bot Is Working Now , Enjoy .
+Congrats! Your bot is now up and running. Enjoy :D
