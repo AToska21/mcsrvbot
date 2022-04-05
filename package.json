@@ -1,14 +1,16 @@
 {
-  "name": "minecraft-server-status-bot",
-  "version": "1.0.0",
-  "description": "Minecraft Server Status Bot is a Discord Bot Which Gives You Status Of Your Minecraft Server .",
+  "name": "mcsrvbot",
+  "version": "0.4",
+  "description": "McSrvBot is a Discord bot that tells you the status of your Minecraft server!",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+    "delete-config": "rm -rf config.json"
+    "delete-config:windows": "del config.json"
   },
   "keywords": [],
-  "author": "LegendX",
-  "license": "ISC",
+  "author": "AToska21",
+  "license": "All Rights Reserved",
   "dependencies": {
     "discord.js": "^12.5.3",
     "discord.js-pagination": "^1.0.3",
