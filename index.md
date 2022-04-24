@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+# McSrvBot
 
-You can use the [editor on GitHub](https://github.com/AToska21/mcsrvbot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+    McSrvBot is a bot which allows you to look at your Minecraft server status without even opening Minecraft!
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Setting up the bot
 
-### Markdown
+Before you go to the step `Configuring the bot` or `The First Start` make sure you have downloaded and installed these things:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**[Latest Version Of NodeJS](https://nodejs.org/en/)**
 
-```markdown
-Syntax highlighted code block
+After the successful installation of NodeJS, follow this process IF YOU ARE ON WINDOWS!:
 
-# Header 1
-## Header 2
-### Header 3
+```
+1- Click On The Windows-Key Of Your Keyboard .
 
-- Bulleted
-- List
+2- Type Powershell/Cmd (It's Totally Your Choice) And Right Click On First Result .
 
-1. Numbered
-2. List
+3- Click "Run As Administrator" .
 
-**Bold** and _Italic_ and `Code` text
+4- When The Terminal Is Opened Type npm install --global windows-build-tools --vs2015 In It And The Installation Will Start (Sometimes This Can Take Long) .
 
-[Link](url) and ![Image](src)
+5- When The Installation Is Finished You Can Close The Terminal .
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+MacOS users do:
+``xcode-select --install`` in the terminal.
 
-### Jekyll Themes
+Linux users do nothing.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AToska21/mcsrvbot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+After completing `Setting up the bot` move to `Configuring the bot`.
 
-### Support or Contact
+# Configuring the bot
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+You have a file named config.json like this:
+
+```json
+{
+  "websitelink":"your-bot-website-link",
+  "botinvitelink": "your-bot-invite-link",
+  "bottoken": "your-bot-token",
+  "discordinvitelink": "your-discord-server-invite-link",
+  "defaultprefix": "your-bot-default-prefix",
+  "botago": "86400000",
+  "botoldcolor": "RED",
+  "botnewcolor": "GREEN",
+  "botreportchannel": "channel-id-where-report-command-send-reports"
+}
+```
+In the first line put **`Your Bot Website Link`**.
+In the second line put **`Your Bot Invite Link`**.
+In the third line put **`Your Bot Token`**.
+In the fourth line put **`Your Discord Server Invite Link`**.
+In the fifth line put **`Your Bot Default Prefix`**.
+Do not make changes in the **`Sixth`**, **`Seventh`**, And **`Eighth`** lines.
+In the ninth line put the **`Discord Channel Id`** where the bot sends a report when someone uses the report command.
+
+After Completing `Configuring the bot` Move To `The First Start` .
+
+# The First Start
+
+When you completed the above steps run these commands:
+
+```
+npm install discord.js@12.5.3 discord.js-pagination fs glob node-fetch quick.db
+npm run start
+```
+
+Congrats! Your bot is now up and running. Enjoy :D
